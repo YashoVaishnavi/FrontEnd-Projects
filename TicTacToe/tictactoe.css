@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blueviolet;
+   
+}
+
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    margin-top: 10%;
+    
+}
+#cellContainer{
+    display:grid;
+    grid-template-columns: repeat(3,auto);;
+    border:2px solid black;
+    width: 225px;
+    margin:auto;
+}
+
+.cell{
+    border:3px solid black;
+    height:75px;
+    width:75px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.cell:hover{
+    background-color: #f0f0f0;
+}
+
+#gameStatus{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+#resetBtn{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    cursor: pointer;
+    padding:10px;
+    border-radius: 10px;
+    background-color: #5a49f3;
+    color:#fff;
+}
+
